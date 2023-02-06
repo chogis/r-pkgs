@@ -626,7 +626,7 @@ If your package "owns" an S3 class, it makes sense to export a user-friendly con
 This is often just a regular function and there is no special S3 angle.
 
 If your package "owns" an S3 generic and you want others to be able to use it, you should export the generic.
-For example, the dplyr package exports the generic function `dplyr::count()` and also implements and exports a specific method, `separate.data.frame()`:
+For example, the dplyr package exports the generic function `dplyr::count()` and also implements and exports a specific method, `count.data.frame()`:
 
 ```{r}
 #| eval: false
